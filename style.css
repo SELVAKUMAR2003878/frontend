@@ -1,0 +1,185 @@
+body {
+    text-align: center;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#popup {
+    width:100%;    
+    background-color: black;
+    height: 100%;
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    opacity: .9;
+    display: none;
+}
+.display {
+    display:block;
+    margin:auto;
+
+}
+#container {
+    background-color: white;
+    width:200px;
+    height: 340px;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+
+}
+#container input{
+    margin-top:10px;
+    text-align: center;
+    font-weight: bold;
+    height: 30px;
+}
+
+.btn  {
+    margin-top: 35px;
+    font-size: 1.2em;
+    padding: 8px;
+    border:none;
+    border-radius: 8px;
+    transition: background-color .5s ease-in-out;
+    color:white;
+}
+#btn1 {
+    background-color: hsl(120, 100%, 50%);
+
+}
+#btn1:hover {
+    background-color: hsl(120, 62%, 59%);
+}
+
+#btn2 {
+    background-color: hsl(0, 100%, 50%);
+
+}
+#btn2:hover {
+    background-color: hsl(13, 66%, 52%);
+}
+#footer button {
+    font-size: 2.5em;
+    padding:15px;
+    border: none;
+    border-radius: 100%;
+    font-weight: bold;
+    background-color: rgb(0, 181, 231);
+    position: absolute;
+    right: 30px;
+    bottom:30px;
+    color:white;
+    cursor:pointer;
+}
+#section {
+    width:100%;
+    height: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto-fit;
+    
+}
+
+.viewpart {
+    height: auto;
+    margin-top: 10px;
+    background-color: hsl(0, 0%, 15%);
+    width:100%;
+    color:white;
+
+}
+
+.repayBtn {
+    font-size: 1.2em;
+    padding: 8px;
+    border:none;
+    border-radius: 8px;
+    background-color: hsl(130, 100%, 46%);
+    margin:8px;
+    color:white;
+}
+
+.deletebtn {
+    font-size: 1.2em;
+    padding: 8px;
+    border:none;
+    border-radius: 8px;
+    margin:8px;
+    background-color: hsl(0, 100%, 50%);
+    transition: background-color .5s ease-in-out;
+    color:white;
+
+}
+
+#RepayPopup {
+    width:100%;    
+    background-color: black;
+    height: 100%;
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    opacity: .9;
+    display: none;
+}
+
+#RepayForm {
+    background-color: white;
+    width:200px;
+    height: 150px;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 1.4em;
+}
+
+#Repay {
+    margin-top:30px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    border:solid 2px black;
+    font-size: 1em;
+    width:180px;
+    border-radius: 10px;
+
+}
+
+
+#cancelRepayBtn {
+    margin-top: 35px;
+    font-size: 1.2em;
+    padding: 8px;
+    border:none;
+    border-radius: 8px;
+    background-color: hsl(0, 100%, 50%);
+    color:white;
+
+}
+
+#History {
+    color:hsl(0, 0%, 100%);
+    font-size: 1.1em;
+}
+
+.viewpart #hty {
+    margin-top: 20px;
+}
+
+#container button {
+    color:black;
+}
